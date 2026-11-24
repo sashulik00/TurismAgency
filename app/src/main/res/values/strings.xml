@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Турфирма</string>
+
+    <!-- Вход -->
+    <string name="login_title">Корпоративная система «Турфирма»</string>
+    <string name="login_subtitle">Вход для сотрудников</string>
+    <string name="login_employee">Сотрудник</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_action">Войти</string>
+    <string name="login_error">Неверный пароль. Попробуйте ещё раз.</string>
+
+    <!-- Навигация -->
+    <string name="tab_tours">Туры</string>
+    <string name="tab_clients">Клиенты</string>
+    <string name="tab_bookings">Брони</string>
+    <string name="tab_contracts">Договоры</string>
+    <string name="tab_menu">Ещё</string>
+
+    <!-- Общие -->
+    <string name="action_save">Сохранить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_back">Назад</string>
+    <string name="action_logout">Выйти</string>
+    <string name="search_hint">Поиск…</string>
+    <string name="empty_list">Ничего не найдено</string>
+    <string name="error_foreign_key">Запись используется в других таблицах — сначала удалите связанные данные</string>
+    <string name="error_quota">Недостаточно свободных мест в туре</string>
+    <string name="error_unknown">Не удалось выполнить операцию</string>
+
+    <!-- Туры -->
+    <string name="tours_title">Каталог туров</string>
+    <string name="tour_search_hint">Тур, страна, город или отель</string>
+    <string name="tour_filter_active">Только актуальные</string>
+    <string name="tour_nights">%1$d ночей</string>
+    <string name="tour_quota">Свободных мест: %1$d</string>
+    <string name="tour_departure">Вылет: %1$s</string>
+    <string name="tour_operator">Туроператор: %1$s</string>
+    <string name="tour_hotel">Отель: %1$s</string>
+    <string name="tour_meal">Питание: %1$s</string>
+    <string name="tour_status_active">Актуален</string>
+    <string name="tour_status_discontinued">Снят с продажи</string>
+    <string name="tour_action_book">Оформить бронь</string>
+    <string name="tour_action_discontinue">Снять с продажи</string>
+    <string name="tour_action_restore">Вернуть в продажу</string>
+    <string name="tour_description">Описание</string>
+    <string name="tour_add_title">Новый тур</string>
+    <string name="tour_edit_title">Редактирование тура</string>
+    <string name="tour_name">Название тура</string>
+    <string name="tour_price">Цена, ₽</string>
+    <string name="tour_quota_field">Свободных мест</string>
+    <string name="tour_nights_field">Ночей</string>
+    <string name="tour_departure_field">Дата вылета (ДД.ММ.ГГГГ)</string>
+    <string name="tour_operator_field">Туроператор</string>
+    <string name="tour_hotel_field">Отель</string>
+    <string name="tour_meal_field">Питание</string>
+    <string name="tour_action_edit">Изменить</string>
+    <string name="tour_error_name">Введите название тура</string>
+    <string name="tour_error_fields">Заполните все поля выбора</string>
+    <string name="tour_error_departure">Дата вылета в формате ДД.ММ.ГГГГ и не в прошлом</string>
+    <string name="tour_error_nights">Ночей: от 1 до 30</string>
+    <string name="tour_error_price">Введите цену больше нуля</string>
+    <string name="tour_error_quota">Свободных мест: от 1 до 100</string>
+    <string name="details_destination">Направление</string>
+    <string name="details_hotel">Отель</string>
+    <string name="details_meal">Питание</string>
+    <string name="details_operator">Туроператор</string>
+    <string name="details_quota">Свободных мест</string>
+    <string name="details_nights">Продолжительность</string>
+    <string name="details_departure">Дата вылета</string>
+    <string name="details_price">Цена</string>
+
+    <!-- Клиенты -->
+    <string name="clients_title">Клиенты</string>
+    <string name="client_search_hint">Фамилия или телефон</string>
+    <string name="client_passport">Паспорт: %1$s %2$s</string>
+    <string name="client_birth_date">Дата рождения: %1$s</string>
+    <string name="client_bookings_title">Брони клиента</string>
+    <string name="client_add_title">Новый клиент</string>
+    <string name="client_edit_title">Редактирование клиента</string>
+    <string name="client_last_name">Фамилия</string>
+    <string name="client_first_name">Имя</string>
+    <string name="client_middle_name">Отчество</string>
+    <string name="client_phone">Телефон</string>
+    <string name="client_email">Email</string>
+    <string name="client_passport_series">Серия паспорта</string>
+    <string name="client_passport_number">Номер паспорта</string>
+    <string name="client_birth_date_hint">Дата рождения (ДД.ММ.ГГГГ)</string>
+    <string name="client_error_last_name">Введите фамилию (только буквы)</string>
+    <string name="client_error_first_name">Введите имя (только буквы)</string>
+    <string name="client_error_phone">Телефон в формате +7XXXXXXXXXX</string>
+    <string name="client_error_email">Некорректный email</string>
+    <string name="client_error_passport">Серия — 4 цифры, номер — 6 цифр</string>
+    <string name="client_error_birth_date">Дата в формате ДД.ММ.ГГГГ</string>
+
+    <!-- Бронирования -->
+    <string name="bookings_title">Бронирования</string>
+    <string name="booking_new_title">Новая бронь</string>
+    <string name="booking_edit_title">Бронь №%1$d</string>
+    <string name="booking_client">Клиент</string>
+    <string name="booking_tour">Тур</string>
+    <string name="booking_tourists">Туристов</string>
+    <string name="booking_total">Итого: %1$s</string>
+    <string name="booking_created">Создана: %1$s</string>
+    <string name="booking_status">Статус</string>
+    <string name="booking_status_pending">Ожидает</string>
+    <string name="booking_status_confirmed">Подтверждена</string>
+    <string name="booking_status_cancelled">Отменена</string>
+    <string name="booking_filter_all">Все</string>
+    <string name="booking_contract_created">Договор и предоплата оформлены</string>
+    <string name="booking_error_client">Выберите клиента</string>
+    <string name="booking_error_tour">Выберите тур</string>
+    <string name="booking_error_tourists">Туристов: от 1 до 10</string>
+    <string name="details_total">Итого</string>
+
+    <!-- Договоры и платежи -->
+    <string name="contracts_title">Договоры</string>
+    <string name="contract_number">Договор №%1$s</string>
+    <string name="contract_of_client">Клиент: %1$s</string>
+    <string name="contract_amount">Сумма договора: %1$s</string>
+    <string name="contract_paid">Оплачено: %1$s</string>
+    <string name="contract_remaining">Остаток: %1$s</string>
+    <string name="contract_status_active">Действует</string>
+    <string name="contract_status_completed">Исполнен</string>
+    <string name="contract_status_cancelled">Расторгнут</string>
+    <string name="contract_payments_title">Платежи по договору</string>
+    <string name="contract_action_cancel">Расторгнуть договор</string>
+    <string name="contract_cancel_confirm">Расторгнуть договор и отменить бронь?</string>
+    <string name="payment_new_title">Новый платёж</string>
+    <string name="payment_amount">Сумма, ₽</string>
+    <string name="payment_method">Способ оплаты</string>
+    <string name="payment_kind">Вид платежа</string>
+    <string name="payment_kind_full">Полная оплата</string>
+    <string name="payment_kind_prepay">Предоплата</string>
+    <string name="payment_kind_surcharge">Доплата</string>
+    <string name="payment_kind_refund">Возврат</string>
+    <string name="payment_method_cash">Наличные</string>
+    <string name="payment_method_card">Карта</string>
+    <string name="payment_method_transfer">Перевод</string>
+    <string name="payment_method_sbp">СБП</string>
+    <string name="payment_error_amount">Введите сумму больше нуля</string>
+    <string name="payments_empty">Платежей пока нет</string>
+
+    <!-- Меню -->
+    <string name="menu_title">Меню</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_admin_section">Администрирование</string>
+    <string name="menu_operators">Туроператоры</string>
+    <string name="menu_destinations">Направления</string>
+    <string name="menu_hotels">Отели</string>
+    <string name="menu_meal_types">Типы питания</string>
+    <string name="menu_employees">Сотрудники</string>
+    <string name="menu_audit">Журнал изменений</string>
+    <string name="menu_role_admin">Администратор</string>
+    <string name="menu_role_manager">Менеджер</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_hide_amounts">Скрывать суммы</string>
+    <string name="settings_hide_amounts_hint">Финансовые данные не отображаются на экранах</string>
+    <string name="settings_about">Корпоративная ИС «Турфирма». Курсовая работа, ТИСБИ, гр. П-311.</string>
+
+    <!-- Справочники -->
+    <string name="operators_title">Туроператоры</string>
+    <string name="operator_name">Название</string>
+    <string name="operator_contact">Контактное лицо</string>
+    <string name="operator_phone">Телефон</string>
+    <string name="operator_email">Email</string>
+    <string name="destinations_title">Направления</string>
+    <string name="destination_country">Страна</string>
+    <string name="destination_city">Город</string>
+    <string name="hotels_title">Отели</string>
+    <string name="hotel_name">Название отеля</string>
+    <string name="hotel_stars">Категория (1–5)</string>
+    <string name="hotel_destination">Направление</string>
+    <string name="hotel_stars_value">%1$d ★</string>
+    <string name="meal_types_title">Типы питания</string>
+    <string name="meal_type_code">Код (RO, BB, HB…)</string>
+    <string name="meal_type_name">Название</string>
+    <string name="employees_title">Сотрудники</string>
+    <string name="employee_full_name">ФИО</string>
+    <string name="employee_position">Должность</string>
+    <string name="employee_role">Роль</string>
+    <string name="employee_password">Пароль (для входа)</string>
+    <string name="employee_error_name">Введите ФИО</string>
+    <string name="employee_error_password">Пароль — не менее 4 символов</string>
+
+    <!-- Журнал -->
+    <string name="audit_title">Журнал изменений</string>
+    <string name="audit_booking_status">%1$s → %2$s</string>
+</resources>
